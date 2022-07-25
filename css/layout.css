@@ -8,11 +8,25 @@ flex-direction: row;
 list-style-type: none;
 padding: 20px;
 justify-content: space-between;
+width: 55em;
 }
+@media only screen and (max-width: 600px) {
+    .navList {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
 .navDiv{
     display: flex;
     justify-content: space-between;
+ 
 }
+@media only screen and (max-width: 600px) {
+    .banner {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
 .wedDiv{
     background-image: url("/img/1.jpg");
     width: 25em;
@@ -33,4 +47,23 @@ justify-content: space-between;
     margin-top: 3em;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 5em;
 }
+@media only screen and (max-width: 600px) {
+    .secDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  .revSec{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  
+  }
+  .review{
+    max-width: 30em;
+  }
+

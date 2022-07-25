@@ -8,8 +8,9 @@ export default function header(){
             <nav>
             <ul class="navList">
             <li title="Home Button. Click to return to Home" class="homeBtn">HOME</li>
-            <li title="Weddings Button. Click to see wedding cakes" class="wedCakeBtn">WEDDINGS CAKES</li>
-            <li title="Occasions Button. Click to see all occasion cakes" class="occCakeBtn">CAKES</li>
+            <li title="Weddings Button. Click to see wedding cakes" class="wedCakeBtn">WEDDING CAKES</li>
+            <li title="Occasions Button. Click to see all occasion cakes" class="occCakeBtn">OCCASION CAKES</li>
+            <li title="Occasions Button. Click to see all cupcakes" class="cupCakeBtn">CUPCAKES</li>
             <li title="Click to see our story" class="stryBtn">OUR STORY</li>
             <li title="Click to view flavors" class="flvrBtn">FLAVORS</li>
             <li title="Click for tastings" class="tstBtn">TASTINGS</li>
