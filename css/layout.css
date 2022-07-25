@@ -1,9 +1,36 @@
 .banner{
     display: flex;
+    justify-content: space-evenly;
 }
 .navList{
 display: flex;
 flex-direction: row;
 list-style-type: none;
 padding: 20px;
+justify-content: space-between;
+}
+.navDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.wedDiv{
+    background-image: url("/img/1.jpg");
+    width: 25em;
+    height: 25em;
+}
+.cupDiv {
+    background-image: url("/img/3.jpg");
+    width: 25em;
+    height: 25em;
+
+}
+.otherDiv{
+    background-image: url("/img/2.jpg");
+    width: 25em;
+    height: 25em;
+}
+.secDiv{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-evenly;
 }
