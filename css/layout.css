@@ -1,0 +1,9 @@
+.banner{
+    display: flex;
+}
+.navList{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+padding: 20px;
+}
